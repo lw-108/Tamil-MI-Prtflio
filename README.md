@@ -1,6 +1,6 @@
 # தமிழ் Portfolio - Next.js, Tailwind CSS & Framer Motion
 
-![தமிழ் Portfolio](/public/agency.PNG)
+![தமிழ் Portfolio](/public/portfolio.PNG)
 
 தமிழ் Portfolio is a stunning multi-page agency website template developed using Next.js, Tailwind CSS, and Framer Motion. Designed and built by the talented Tailwind CSS team, this template offers a sleek and minimalist appearance while boasting engaging interactive elements and captivating animations powered by Framer Motion.
 
