@@ -58,6 +58,14 @@ const Clients = () => {
               </li>
             ))}
           </ul>
+          <div className="mt-10">
+                <a
+                  href="/tech"
+                  className="text-sm font-semibold text-white hover:underline"
+                >
+                  View More →
+                </a>
+              </div>
         </FadeInStagger>
       </Container>
     </div>

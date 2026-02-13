@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Button from "@/components/Button";
 import Clients from "@/components/Clients";
 import ContactSection from "@/components/ContactSection";
 import Container from "@/components/Container";
@@ -64,12 +65,15 @@ export default function Home() {
                 I build fast, scalable and beautifully engineered web experiences.
               </h2>
 
-              <p className="mt-4 text-base text-neutral-600 dark:text-neutral-400">
+              <p className="mt-4 text-base text-neutral-600 dark:text-neutral-400 mb-10">
                 I specialize in building high-performance applications using
                 modern frameworks and clean architecture. From elegant UI
                 systems to scalable backend infrastructure, I turn complex ideas
                 into refined, production-ready solutions.
               </p>
+              <Button href={"/resume"}>
+            View Resume
+          </Button>
             </FadeIn>
           </div>
 

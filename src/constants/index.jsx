@@ -21,8 +21,8 @@ export const navigation = [
     title: "Company",
     links: [
       { title: "About Me", href: "/about" },
-      { title: "Development Process", href: "/process" },
-      { title: "Tech Blog", href: "/blog" },
+      { title: "My Education", href: "/process" },
+      { title: "Resume", href: "/resume" },
       { title: "Connect With Me", href: "/contact" },
     ],
   },
