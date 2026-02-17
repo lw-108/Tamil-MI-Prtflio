@@ -10,8 +10,8 @@ const PDFViewer = dynamic(() => import("./PdfViewerComponent"), {
 
 export default function ResumePage() {
   return (
-    <div className="bg-white min-h-screen flex flex-col">
-      <Container className="flex-1 px-6 md:px-16 py-20">
+    <div className="bg-white min-h-screen flex flex-col overflow-x-hidden">
+      <Container className="flex-1 px-4 md:px-10 py-20">
         <header className="mb-12">
           <div className="flex items-center gap-4 mb-4">
             <h1 className="text-4xl font-bold tracking-tight text-black sm:text-5xl">
@@ -26,12 +26,15 @@ export default function ResumePage() {
               ↡
             </a>
           </div>
+
           <p className="text-gray-600 mt-3">
             View or download my professional resume below.
           </p>
         </header>
 
-        <PDFViewer />
+        <div className="w-full flex justify-center">
+          <PDFViewer />
+        </div>
       </Container>
 
       <Footer />
